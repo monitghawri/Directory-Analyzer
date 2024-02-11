@@ -29,7 +29,7 @@ public class DirectoryAnalyzer {
             xmlContent.append("</directory>");
 
             // Write to XML file
-            FileWriter writer = new FileWriter("C:\\Users\\dell\\Desktop\\directory_hierarchy.xml");
+            FileWriter writer = new FileWriter("directory_hierarchy.xml");
             writer.write(xmlContent.toString());
             writer.close();
 
